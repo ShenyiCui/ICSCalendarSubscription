@@ -1,0 +1,194 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:d894b1dc-9794-498b-9105-11f849dcf594
+SUMMARY:Tech 4 Break\, booked
+DTSTAMP:20201219T140318Z
+DTSTART:20201214T023000Z
+DESCRIPTION:Event booked || By: shenyi.cui@dulwich-beijing.cn || In ROOM: T
+	ech 4
+URL:http://shenyicui.github.io/dcbbookings/Pages/Make_Booking.html
+ORGANIZER;CN=shenyi.cui:mailto:shenyi.cui@dulwich-beijing.cn
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=shenyi.cui:mai
+	lto:shenyi.cui@dulwich-beijing.cn
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+DURATION:PT20M
+END:VEVENT
+BEGIN:VEVENT
+UID:e7ae7a2f-759e-43ca-b0c2-6b76868069dd
+SUMMARY:Tech 4 Break\, booked
+DTSTAMP:20201219T140318Z
+DTSTART:20201215T023000Z
+DESCRIPTION:Event booked || By: shenyi.cui@dulwich-beijing.cn || In ROOM: T
+	ech 4
+URL:http://shenyicui.github.io/dcbbookings/Pages/Make_Booking.html
+ORGANIZER;CN=shenyi.cui:mailto:shenyi.cui@dulwich-beijing.cn
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=shenyi.cui:mai
+	lto:shenyi.cui@dulwich-beijing.cn
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+DURATION:PT20M
+END:VEVENT
+BEGIN:VEVENT
+UID:4f96ad8a-28ed-48eb-82bf-fc7ac00ba074
+SUMMARY:Tech 4 Break\, booked
+DTSTAMP:20201219T140318Z
+DTSTART:20201216T023000Z
+DESCRIPTION:Event booked || By: shenyi.cui@dulwich-beijing.cn || In ROOM: T
+	ech 4
+URL:http://shenyicui.github.io/dcbbookings/Pages/Make_Booking.html
+ORGANIZER;CN=shenyi.cui:mailto:shenyi.cui@dulwich-beijing.cn
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=shenyi.cui:mai
+	lto:shenyi.cui@dulwich-beijing.cn
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+DURATION:PT20M
+END:VEVENT
+BEGIN:VEVENT
+UID:d8625bdf-95f5-45e9-b778-264f8a36be71
+SUMMARY:Tech 4 Break\, booked
+DTSTAMP:20201219T140318Z
+DTSTART:20201217T023000Z
+DESCRIPTION:Event booked || By: shenyi.cui@dulwich-beijing.cn || In ROOM: T
+	ech 4
+URL:http://shenyicui.github.io/dcbbookings/Pages/Make_Booking.html
+ORGANIZER;CN=shenyi.cui:mailto:shenyi.cui@dulwich-beijing.cn
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=shenyi.cui:mai
+	lto:shenyi.cui@dulwich-beijing.cn
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+DURATION:PT20M
+END:VEVENT
+BEGIN:VEVENT
+UID:fa768b81-3261-4ae3-b572-ec8656a3ad30
+SUMMARY:Tech 4 Break\, booked
+DTSTAMP:20201219T140318Z
+DTSTART:20201218T023000Z
+DESCRIPTION:Event booked || By: shenyi.cui@dulwich-beijing.cn || In ROOM: T
+	ech 4
+URL:http://shenyicui.github.io/dcbbookings/Pages/Make_Booking.html
+ORGANIZER;CN=shenyi.cui:mailto:shenyi.cui@dulwich-beijing.cn
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=shenyi.cui:mai
+	lto:shenyi.cui@dulwich-beijing.cn
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+DURATION:PT20M
+END:VEVENT
+BEGIN:VEVENT
+UID:4e634aaf-82bd-447f-954a-d3c430f954b2
+SUMMARY:Tech 4 ECA 1\, booked
+DTSTAMP:20201219T140318Z
+DTSTART:20201221T073500Z
+DESCRIPTION:Event booked || By: shenyi.cui@dulwich-beijing.cn || In ROOM: T
+	ech 4
+URL:http://shenyicui.github.io/dcbbookings/Pages/Make_Booking.html
+ORGANIZER;CN=shenyi.cui:mailto:shenyi.cui@dulwich-beijing.cn
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=shenyi.cui:mai
+	lto:shenyi.cui@dulwich-beijing.cn
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+DURATION:PT60M
+END:VEVENT
+BEGIN:VEVENT
+UID:42d3f442-a2c4-442b-b944-ddd6784c2313
+SUMMARY:Tech 4 Period 5\, booked
+DTSTAMP:20201219T140318Z
+DTSTART:20201221T054000Z
+DESCRIPTION:Event booked || By: shenyi.cui@dulwich-beijing.cn || In ROOM: T
+	ech 4
+URL:http://shenyicui.github.io/dcbbookings/Pages/Make_Booking.html
+ORGANIZER;CN=shenyi.cui:mailto:shenyi.cui@dulwich-beijing.cn
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=shenyi.cui:mai
+	lto:shenyi.cui@dulwich-beijing.cn
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+DURATION:PT55M
+END:VEVENT
+BEGIN:VEVENT
+UID:1389445e-fecb-473b-957e-6a16ea196068
+SUMMARY:Tech 4 Period 1\, booked
+DTSTAMP:20201219T140318Z
+DTSTART:20201222T003500Z
+DESCRIPTION:Event booked || By: shenyi.cui@dulwich-beijing.cn || In ROOM: T
+	ech 4
+URL:http://shenyicui.github.io/dcbbookings/Pages/Make_Booking.html
+ORGANIZER;CN=shenyi.cui:mailto:shenyi.cui@dulwich-beijing.cn
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=shenyi.cui:mai
+	lto:shenyi.cui@dulwich-beijing.cn
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+DURATION:PT55M
+END:VEVENT
+BEGIN:VEVENT
+UID:20efbd4e-04b3-4895-8950-7f1f2006a385
+SUMMARY:Tech 4 Lunch\, booked
+DTSTAMP:20201219T140318Z
+DTSTART:20201222T044500Z
+DESCRIPTION:Event booked || By: shenyi.cui@dulwich-beijing.cn || In ROOM: T
+	ech 4
+URL:http://shenyicui.github.io/dcbbookings/Pages/Make_Booking.html
+ORGANIZER;CN=shenyi.cui:mailto:shenyi.cui@dulwich-beijing.cn
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=shenyi.cui:mai
+	lto:shenyi.cui@dulwich-beijing.cn
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+DURATION:PT55M
+END:VEVENT
+BEGIN:VEVENT
+UID:bd822e8d-472c-4d48-baef-e673d13ffc4a
+SUMMARY:Tech 4 Break\, booked
+DTSTAMP:20201219T140318Z
+DTSTART:20201222T023000Z
+DESCRIPTION:Event booked || By: shenyi.cui@dulwich-beijing.cn || In ROOM: T
+	ech 4
+URL:http://shenyicui.github.io/dcbbookings/Pages/Make_Booking.html
+ORGANIZER;CN=shenyi.cui:mailto:shenyi.cui@dulwich-beijing.cn
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=shenyi.cui:mai
+	lto:shenyi.cui@dulwich-beijing.cn
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+DURATION:PT20M
+END:VEVENT
+BEGIN:VEVENT
+UID:efd96d2b-3b27-4469-ae6b-d092d5798008
+SUMMARY:Tech 4 Break\, booked
+DTSTAMP:20201219T140318Z
+DTSTART:20201222T023000Z
+DESCRIPTION:Event booked || By: shenyi.cui@dulwich-beijing.cn || In ROOM: T
+	ech 4
+URL:http://shenyicui.github.io/dcbbookings/Pages/Make_Booking.html
+ORGANIZER;CN=shenyi.cui:mailto:shenyi.cui@dulwich-beijing.cn
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=shenyi.cui:mai
+	lto:shenyi.cui@dulwich-beijing.cn
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT15M
+END:VALARM
+DURATION:PT20M
+END:VEVENT
+END:VCALENDAR
