@@ -37,7 +37,7 @@ router.post("/api/createCalendar/submitData", function (req, res, next) {
     return {
       start: start, // [year, month, day, start hour, start minute]
       duration: { minutes: 30 }, //{hours: 6, minutes: 30}
-      title: item.title, //Period 3, Booked
+      title: item.title + ", (DUE 30 min)", //Period 3, Booked
       description: item.description + "\n\nDUE IN 30 MINUTES", //optional
       url: "https://laughing-bassi-1b3575.netlify.app/",
     };
