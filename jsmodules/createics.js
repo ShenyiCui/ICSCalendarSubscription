@@ -1,10 +1,10 @@
-const fs = require('fs')
-const ics = require('ics')
+const fs = require("fs");
+const ics = require("ics");
 module.exports = {
-    createCalDCBResos: function(calName, type, JSONArray){
-        const event = JSONArray
+  createCalDCBResos: function (calName, type, JSONArray) {
+    const event = JSONArray;
 
-        /*{
+    /*{
             start: startArray, // [year, month, day, start hour, start minute]
             duration: durationJSON, //{hours: 6, minutes: 30}
             title: eventTitle, //Period 3, Booked
@@ -19,16 +19,19 @@ module.exports = {
 
         }*/
 
-        ics.createEvents(event, (error, value) => {
-            if (error) {
-                console.log(error)
-            }
-            console.log('./Calendars/DCBBOOKINGS/'+type+'/'+calName+'.ics')
-            //fs.writeFileSync('./Calendars/DCBBOOKINGS/'+type+'/'+calName+'.ics', value)
-            fs.writeFileSync('../Calendars/DCBBOOKINGS/'+type+'/'+calName+'.ics', value)
-        })
+    ics.createEvents(event, (error, value) => {
+      if (error) {
+        console.log(error);
+      }
+      console.log("./Calendars/DCBBOOKINGS/" + type + "/" + calName + ".ics");
+      //fs.writeFileSync('./Calendars/DCBBOOKINGS/'+type+'/'+calName+'.ics', value)
+      fs.writeFileSync(
+        "../Calendars/DCBBOOKINGS/" + type + "/" + calName + ".ics",
+        value
+      );
+    });
 
-        /*ics.createEvent(event, (error, value) => {
+    /*ics.createEvent(event, (error, value) => {
             if (error) {
                 console.log(error)
                 return
@@ -61,17 +64,35 @@ module.exports = {
             // END:VEVENT
             // END:VCALENDAR
         })*/
-
-    },
-    createcalDCBUser: function(calName, JSONArray){
-        const event = JSONArray
-        ics.createEvents(event, (error, value) => {
-            if (error) {
-                console.log(error)
-            }
-            console.log('    Calendar Created at: ./Calendars/DCBBOOKINGS/Users/'+calName+'.ics')
-            //fs.writeFileSync('./Calendars/DCBBOOKINGS/Users/'+calName+'.ics', value)
-            fs.writeFileSync('../Calendars/DCBBOOKINGS/Users/'+calName+'.ics', value)
-        })
-    }
-}
+  },
+  createcalDCBUser: function (calName, JSONArray) {
+    const event = JSONArray;
+    ics.createEvents(event, (error, value) => {
+      if (error) {
+        console.log(error);
+      }
+      console.log(
+        "Calendar Created at: ./Calendars/DCBBOOKINGS/Users/" + calName + ".ics"
+      );
+      //fs.writeFileSync('./Calendars/DCBBOOKINGS/Users/'+calName+'.ics', value)
+      fs.writeFileSync(
+        "../Calendars/DCBBOOKINGS/Users/" + calName + ".ics",
+        value
+      );
+    });
+  },
+  createCalCVWOTasks: function async(calName, JSONArray) {
+    const event = JSONArray;
+    ics.createEvents(event, (error, value) => {
+      if (error) {
+        console.log(error);
+        throw error;
+      }
+      console.log(
+        "Calendar Created at: ./Calendars/CVWO/Users/" + calName + ".ics"
+      );
+      //fs.writeFileSync('./Calendars/CVWO/Users/'+calName+'.ics', value)
+      fs.writeFileSync("./Calendars/CVWO/Users/" + calName + ".ics", value);
+    });
+  },
+};
