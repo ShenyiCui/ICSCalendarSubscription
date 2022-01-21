@@ -1,5 +1,10 @@
 const fs = require("fs");
 const ics = require("ics");
+const { dirname } = require("path");
+let appDir = dirname(require.main.filename);
+var lastIndex = appDir.lastIndexOf("/");
+appDir = appDir.substring(0, lastIndex);
+
 module.exports = {
   createCalDCBResos: function (calName, type, JSONArray) {
     const event = JSONArray;
@@ -92,7 +97,10 @@ module.exports = {
         "Calendar Created at: ./Calendars/CVWO/Users/" + calName + ".ics"
       );
       //fs.writeFileSync('./Calendars/CVWO/Users/'+calName+'.ics', value)
-      fs.writeFileSync("./Calendars/CVWO/Users/" + calName + ".ics", value);
+      fs.writeFileSync(
+        appDir + "/Calendars/CVWO/Users/" + calName + ".ics",
+        value
+      );
     });
   },
 };

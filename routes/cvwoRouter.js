@@ -3,6 +3,10 @@ const fs = require("fs");
 var cal = require("../jsmodules/createics");
 var router = express.Router();
 var moment = require("moment");
+const { dirname } = require("path");
+let appDir = dirname(require.main.filename);
+var lastIndex = appDir.lastIndexOf("/");
+appDir = appDir.substring(0, lastIndex);
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
@@ -10,18 +14,8 @@ router.get("/", function (req, res, next) {
 });
 
 router.get("/api/calendarsubscription/:calname", function (req, res, next) {
-  res.set("Content-Type", "text/calendar;charset=utf-8");
-  res.set(
-    "Content-Disposition",
-    'attachment; filename="' + req.params.calname + '.ics"'
-  );
-  //res.send(fs.readFileSync('./Calendars/CVWO/Users/'+req.params.calname+'.ics', 'utf8'));
-  res.send(
-    fs.readFileSync(
-      "../Calendars/CVWO/Users" + req.params.calname + ".ics",
-      "utf8"
-    )
-  );
+  const file = appDir + "/Calendars/CVWO/Users/" + req.params.calname + ".ics";
+  res.download(file);
 });
 
 router.post("/api/createCalendar/submitData", function (req, res, next) {
@@ -38,7 +32,7 @@ router.post("/api/createCalendar/submitData", function (req, res, next) {
       start: start, // [year, month, day, start hour, start minute]
       duration: { minutes: 30 }, //{hours: 6, minutes: 30}
       title: item.title + ", (DUE 30 min)", //Period 3, Booked
-      description: item.description + "\n\nDUE IN 30 MINUTES", //optional
+      description: item.description, //optional
       url: "https://laughing-bassi-1b3575.netlify.app/",
     };
   }
